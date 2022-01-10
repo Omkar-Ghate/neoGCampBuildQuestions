@@ -14,6 +14,6 @@ function getLengthOfArray2(){
     return arguments.length;
 }
 const arr = [1, 5, 3, 6, 8];
-console.log(getLengthOfArray2(arr));// this would return 1 as the entire array is stored as a value of the first index of arguemtns object
+console.log(getLengthOfArray2(arr));// this would return 1 as the entire array is stored as a value of the first index of arguments object
 
 // console.log(getLengthOfArray2(1, 5, 3, 6, 8)); // this would return 5 
