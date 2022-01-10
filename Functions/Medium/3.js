@@ -5,9 +5,7 @@ Input: replace([1,5,3,5,6,8], 5, 10) ––> Output: [1,10,3,10,6,8]
 */
 
 const replaceAll = (array, num1, num2) => {
-    for(let i=0 ; i<array.length ; i++){
-        if(array[i] === num1)array[i] = num2;
-    }
+    array[array.indexOf(num1)] = num2;
     return array;
 }
 
