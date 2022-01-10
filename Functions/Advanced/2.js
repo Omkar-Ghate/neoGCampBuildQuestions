@@ -9,7 +9,7 @@ const getFirstLetterCapital = sentence =>{
     // convert it into an array of words
     let wordsList = sentence.split(" ");
     for(let i=0 ; i<wordsList.length ; i++){
-        wordsList[i] = wordsList[i][0].toUpperCase() + wordsList[i].substring(1);
+        wordsList[i] = wordsList[i][0].toUpperCase() + wordsList[i].slice(1);
     }
     return wordsList.join(" ");
 }
