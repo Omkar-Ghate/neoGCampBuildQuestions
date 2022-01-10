@@ -8,7 +8,6 @@ const replaceAll = (array, num1, num2) => {
     for(let i=0 ; i<array.length ; i++){
         if(array[i] === num1)array[i] = num2;
     }
-
     return array;
 }
 
