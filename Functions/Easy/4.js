@@ -13,7 +13,7 @@ function findMin1(){
 
     // console.log(typeof(Object.keys(arguments)[0]));
 
-    console.log(arguments, typeof arguments, Array.isArray(arguments));
+    // console.log(arguments, typeof arguments, Array.isArray(arguments));
     
     return Math.min(...arguments);
 }
