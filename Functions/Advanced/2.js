@@ -13,7 +13,12 @@ const getFirstLetterCapital = sentence =>{
     }
     return wordsList.join(" ");
 }
+
+// doing everything together
+const getFirstLetterCapital1 = sentence => sentence.split(" ").map(word => word[0].toUpperCase() + word.substring(1)).join(" ");
+
 console.log(getFirstLetterCapital("hey! my name is omkar."));
+console.log(getFirstLetterCapital1("hey! my name is omkar."));
 
 
 
